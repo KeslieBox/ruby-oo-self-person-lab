@@ -6,9 +6,9 @@ class Person
 
 
     def initialize(name)
-        self.name = name
-        self.happiness = 8
-        self.hygiene = 8
+        @name = name
+        @happiness = 8
+        @hygiene = 8
         @bank_account = 25
     end
 
